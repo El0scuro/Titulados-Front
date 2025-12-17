@@ -1,0 +1,12 @@
+.header{
+    background-color: brown;
+    text-align: center;
+}
+/*
+p: { xs: 3, md: 4 },
+            borderRadius: '16px',
+            textAlign: 'center',
+            mb: { xs: 4, md: 6 },
+            boxShadow: '0px 8px 25px rgba(0, 0, 0, 0.1)',
+            background: 'linear-gradient(145deg, #ffffff, #f0f8ff)'
+*/

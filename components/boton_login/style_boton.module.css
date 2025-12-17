@@ -1,0 +1,31 @@
+.boton{
+    border-radius: 20px; /*Da un borde redondeado*/
+    text-align: center; /*Deja el texto interno centralizado*/
+    height: 10%; /*cubre toda la altura*/
+    width: 10%; /*cubre todo el ancho*/      
+    display: 'flex'; /*L*/
+    flex-direction: column; /**/
+    justify-content: center; /**/
+    align-items: center; /**/
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out; /**/
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); /**/
+    cursor: pointer;
+    
+    /*
+                  flexDirection: 'column',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  transition: 'all 0.4s cubic-bezier(.25,.8,.25,1)',
+                  cursor: 'pointer',
+                  boxShadow: '0 10px 30px rgba(0,0,0,0.1)',
+
+                  '&:hover': {
+                    boxShadow: '0 15px 40px rgba(0,0,0,0.2)',
+                    transform: 'translateY(-8px) scale(1.02)',
+                  }
+                    */
+}
+.boton:hover{
+    transform: scale(1.05) translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
