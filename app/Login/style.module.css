@@ -29,11 +29,10 @@
     flex-direction: row;
     justify-content: center;
     padding: auto;
-    background-color: aquamarine;
     gap: 20px;
 }
 .contenedor{
     display: flex;
     flex-direction: column;
-    gap: 50 px;
+    gap: 50px;
 }

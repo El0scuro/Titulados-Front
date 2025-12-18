@@ -36,16 +36,21 @@ const perfiles = [
     },
   ];
 export default function Boton_Perfil() {
-  return(
-    <>
-        {perfiles.map((perfil) => 
-            (<Link key = {perfil.id} href={perfil.link} className= {estilo.boton}>
-                <perfil.icon className= {estilo.simbolo}></perfil.icon>
-                <h3>{perfil.title}</h3>
-                <p>{perfil.description}</p>
-            </Link>
-            ))
-        }
-    </>
-  )
+    return (
+        <>
+            {perfiles.map((perfil) => {
+                const Icon = perfil.icon
+                return(
+                    <Link key={perfil.id} href={perfil.link} className={estilo.boton}>
+                        <Icon sx={{
+                          fontSize: 70,
+                          color: "primary.main",
+                        }}/>
+                        <h3>{perfil.title}</h3>
+                        <p>{perfil.description}</p>
+                    </Link>
+                );
+            })}
+        </>
+    );
 }
