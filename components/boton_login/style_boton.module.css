@@ -1,13 +1,12 @@
 .boton{
-    border-radius: 20px; /*Da un borde redondeado*/
-    text-align: center; /*Deja el texto interno centralizado*/
-    height: 400px; /*altura*/
-    width: 230px; /*ancho*/      
-    display: flex; /*Organización del botón*/
-    flex-direction: column; /*Los componentes esstarán apilados*/
-    justify-content: center; /**/
-    align-items: center; /**/
-    gap: 30px;
+    border-radius: 20px; 
+    text-align: center; 
+    height: 400px; 
+    width: 230px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
     transition: transform 0.3s ease-out, box-shadow 0.3s ease-out; /**/
     box-shadow: 0 10px 30px rgba(0,0,0,0.1); /**/
     text-decoration: none;

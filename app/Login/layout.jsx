@@ -1,8 +1,6 @@
-import estilo from "./style.module.css"
 export default function RootLayout({children}){
     return(
         <html lang="en">
-            
             <body>
                 {children}
             </body>

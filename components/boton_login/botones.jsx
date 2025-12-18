@@ -1,3 +1,4 @@
+"use cliente";
 import estilo from "./style_boton.module.css"
 import Link from "next/link";
 import PersonIcon from '@mui/icons-material/Person';
@@ -11,7 +12,7 @@ const perfiles = [
       title: 'Estudiantes',
       description: 'Suba sus documentos necesarios para iniciar su proceso de titulación.',
       icon: PersonIcon,
-      link: '/auth/login',
+      link: '/Estudiantes',
     },
     {
       id: 'secretarias',
@@ -42,7 +43,7 @@ export default function Boton_Perfil() {
                 const Icon = perfil.icon
                 return(
                     <Link key={perfil.id} href={perfil.link} className={estilo.boton}>
-                        <Icon sx={{
+                        <perfil.icon sx={{
                           fontSize: 70,
                           color: "primary.main",
                         }}/>
