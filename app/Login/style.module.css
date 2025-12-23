@@ -8,7 +8,7 @@
     width: 100%;
     height: auto;      
     border-radius: 16px;
-    background-color: linear-gradient(145deg, #ffffff, #f0f8ff);
+    background-color: aliceblue;
     box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1);
     
 }
@@ -16,6 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .title{
     font-family: 'Roboto';
@@ -35,4 +36,45 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
+}
+/*-----------------------------------------*/ /*Fondo pantalla login*/
+.background{
+    background-size: cover;
+    animation: cambio_Foto 55s infinite;
+}
+
+@keyframes cambio_Foto {
+  0%, 9% {
+    background-image: url("../../Facultades/Arquitectura.jpeg");
+  }
+  9.1%, 18.1% {
+    background-image: url("../../Facultades/Ciencias\ del\ Mar\ y\ de\ Recursos\ Naturales.webp");
+  }
+  18.2%, 27.2% {
+    background-image: url("../../Facultades/Ciencias\ Económicas\ y\ Administrativas.webp");
+  }
+  27.3%, 36.3% {
+    background-image: url("../../Facultades/Ciencias\ Sociales.webp");
+  }
+  36.4%, 45.4% {
+    background-image: url("../../Facultades/Ciencias.jpg");
+  }
+  45.5%, 54.5% {
+    background-image: url("../../Facultades/Derecho.jpeg");
+  }
+  54.6%, 63.6% {
+    background-image: url("../../Facultades/Farmacia.webp");
+  }
+  63.7%, 72.7% {
+    background-image: url("../../Facultades/Humanidades\ y\ Educación.webp");
+  }
+  72.8%, 81.8% {
+    background-image: url("../../Facultades/Ingeniería.webp");
+  }
+  81.9%, 90.9% {
+    background-image: url("../../Facultades/Medicina.webp");
+  }
+  91%, 100% {
+    background-image: url("../../Facultades/Odontología.webp");
+  }
 }
